@@ -1,2 +1,12 @@
 # network_checker
-Software that detects your network connection when you turn on your PC
+# Network Checker (Проверка сети и Zapret)
+Этот скрипт автоматически проверяет подключение к интернету при запуске ПК. 
+Он пингует YouTube, Discord, Google и Yandex, проверяет работу Zapret и выводит красивый отчет.
+Как установить:
+1. Скачайте оба файла (check_net.ps1 и Start_Check.bat).
+2. Положите их в папку C:\Scripts\ (создайте папку, если её нет).
+3. Запустите Start_Check.bat.
+Что показывает:
+- Пинг до сервисов
+- Работает ли Zapret
+- Есть ли блокировки (DPI)
